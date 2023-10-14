@@ -1,0 +1,75 @@
+/* Reset default margin and padding for the whole page */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #07a0dd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style the "BlogWeb" label */
+nav label {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Hover effect for links */
+nav a:hover {
+    color: #ff7f00; /* Change to your desired hover color */
+}.div_deg {
+    background-color: #fff; /* Background color for the section */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 1000px; /* Adjust the max-width value to make it wider */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the label within div_deg */
+.div_deg label {
+    font-size: 24px;
+    color: #07a0dd; /* Label text color */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Style images within div_deg */
+.div_deg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style paragraphs within div_deg */
+.div_deg p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
